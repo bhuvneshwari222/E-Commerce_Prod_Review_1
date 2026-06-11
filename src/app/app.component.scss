@@ -1,0 +1,8 @@
+.ng-invalid.ng-touched, .ng-invalid.ng-dirty{
+    border-color: red;
+}
+.ng-invalid.ng-submitted{
+    input, textarea{
+        border-color: red;
+    }
+}
